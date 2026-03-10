@@ -47,6 +47,6 @@ console.log(getToppingsInfo(papaJohns));
 
 papaJohns.printAd = (topping) => {
   const price = papaJohns.pizzaToppings[topping];
-  console.log(`"Welcome to ${papaJohns.name}! We are located at ${papaJohns.address}. This week, we are having a sale on ${topping} for $${price}. ${papaJohns.slogan}"`);
+  console.log(`"Welcome to ${papaJohns.name}! We are located at ${papaJohns.address}. This week, we are having a sale on ${topping} for $${price}. ${papaJohns.slogan}."`);
 };
 papaJohns.printAd('bacon');
